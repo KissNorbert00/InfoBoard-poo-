@@ -1,0 +1,119 @@
+html{
+    background-image: url("cssImg/IB.png");
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    background-attachment: fixed;
+    background-position: center;
+    margin:0px;
+    overflow: hidden;
+    height: 100%;
+}
+
+body{
+    font: 13/20px "Lucida Grande", Tahoma, Verdana, sans-serif;
+    color: #404040;
+}
+
+.alarm{
+    height: 105px;
+    width: 100%;
+    position: relative;
+    
+}
+
+.al{
+    
+    position: absolute;
+    top: 0px;
+    margin: 0px;
+    margin-left: 900px;
+    padding-bottom:20px;
+    width: 110px;
+    height: 105px;
+    text-align: left;
+    
+    /*background: url("img/bgIndex.png") no-repeat fixed center;*/
+    background-size: auto 100%;  
+    
+}
+   
+
+.scrolling{
+    margin: 0px;
+    padding-top: 14px;
+    font-size: 90px;
+    color:#94ff00;
+    color:#434B4D;
+    color:#BCBDC2;
+    color:#ECF0F1;
+    
+    font-weight: bolder;
+    font-family: "Arial Black", Gadget, sans-serif;
+    visibility: unhidden;
+    text-shadow: 3px 3px 6px black;
+
+}
+
+.message{
+    margin-top: 25px;
+    margin-left: 10px;
+    margin-right: 0px;
+    width: 247px;
+    max-height: 920px;
+    float: left;
+}
+
+.day{
+    color:#D0D3D4;
+    background-color: #0075be;
+    /*border: 2px solid #fff;*/
+    font-family: "Arial", Gadget, sans-serif;
+    margin-bottom: 16px;
+    word-wrap: break-word;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.30);;
+    border-radius: 8px;
+    padding:5px;
+}
+
+h3{
+    color: #fff;
+    margin: 5px;
+    font-size: 22px;
+    font-weight: bolder;
+}
+
+h4{
+    margin: 5px;
+    font-size: 18px;
+    font-weight: normal;
+    text-align: justify;
+}
+
+.container{
+    width: 1640px;
+    margin-top: 8px;
+    float: right;
+}
+
+.Slides1{
+    margin-top: 19px;
+    margin-right: 10px;
+    margin-left: 0px;
+    width: 965px;
+    max-height: 830px;
+    border-radius: 8px;
+    float: right;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.Slides2{
+    margin-top: 0px;
+    margin-right: 15px;
+    margin-left: 0px;
+    width: 642px;
+    max-height: 830px;
+    border-radius: 8px;
+    float: right; 
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+}

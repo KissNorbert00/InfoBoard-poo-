@@ -1,0 +1,81 @@
+html{
+
+}
+
+body{
+    font: 13/20px "Lucida Grande", Tahoma, Verdana, sans-serif;
+    color: #404040;
+}
+
+.login{
+    position: absolute;
+    left: 0;
+    top: 140px;
+    width: 100%;
+    text-align: center;
+    font-size: 23px;
+    font-family:Verdana, Geneva, sans-serif;
+    color: #0075be;
+}
+
+input[type=text]{
+    display: block;
+    background-color: white;
+    border: 2px solid #0075be;
+    border-radius: 6px;
+    width: 200px;
+    margin-top: 270px;
+    margin-left: auto;
+    margin-right: auto;
+    outline: none;
+    padding: 4px;
+    box-sizing: border-box;
+    
+}
+
+input[type=text]:focus{
+    border-color:dodgerblue;
+    box-shadow: 0 0 8px 0 dodgerblue;
+}
+
+input[type=password]{
+    display: block;
+    background-color: white;
+    border: 2px solid #0075be;
+    border-radius: 6px;
+    width: 200px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    outline: none;
+    padding: 4px;
+    box-sizing: border-box;
+}
+
+input[type=password]:focus{
+    border-color: dodgerblue;
+    box-shadow: 0 0 8px 0 dodgerblue;
+}
+
+input[type=submit]{
+    display: block;
+    color: white;
+    font-weight: bold;
+    font-family:Verdana, Geneva, sans-serif;
+    background-color: #0075be;
+    border: 2px solid #0075be;
+    border-radius: 6px;
+    width: 100px;
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    outline: none;
+    padding: 4px;
+    box-sizing: border-box;
+
+}
+
+input[type=submit]:focus{
+    border-color: white;
+    box-shadow: 0 0 8px 0 dodgerblue;
+}

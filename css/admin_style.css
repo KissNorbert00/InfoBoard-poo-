@@ -1,0 +1,314 @@
+html{
+    background-image: url("cssImg/IB.png");
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    background-attachment: fixed;
+    background-position: center;
+    margin:0px;
+}
+
+body{
+    font: 13/20px "Lucida Grande", Tahoma, Verdana, sans-serif;
+    color: #404040;
+}
+
+.logout{
+    margin-top: 15px;
+    margin-left: 5px;
+}
+
+.logout-button{
+    color: black;
+    font-weight: bold;
+    font-size:12px;
+    font-family:Verdana, Geneva, sans-serif;
+    background-color: #0075be;
+    border: 2px solid #0075be;
+    border-radius: 6px;
+    width: 100px;
+    margin-left: 5px;
+    margin-right: auto;
+    outline: none;
+    padding-top:3px;
+    padding-bottom:3px;
+    padding-left:10px;
+    padding-right:10px;
+    box-sizing: border-box;
+    text-decoration: none
+    
+}
+
+.board_text{
+    
+    font-size: 22px;
+    font-family:Verdana, Geneva, sans-serif;
+    font-weight: bold;
+    text-decoration: underline;
+    color: black;
+}
+
+.slide_text{
+    font-size: 16px;
+    font-family:Verdana, Geneva, sans-serif;
+    color: black;
+    /*background-color:#fff;*/
+    color:black;
+    margin-left: 35px;
+}
+
+.slide_text2{
+    font-size: 16px;
+    font-family:Verdana, Geneva, sans-serif;
+    color: #0075be;
+    margin-left: 10px;
+}
+
+.slide_text3{
+    font-size: 16px;
+    font-family:Verdana, Geneva, sans-serif;
+    color: black;
+    /*background-color:#fff;*/
+    margin-left: 35px;
+}
+
+.box_text{
+    background-color: white;
+    border: 2px solid #99A3A4;
+    border-radius: 3px;
+    width: 100px;
+}
+
+.textb{
+    background-color: #fff;
+    border: 2px solid #74b4db;
+    color:black;
+    border-radius: 6px;
+    width: 75px;
+    margin-left: 2px;
+    margin-right: auto;
+    outline: none;
+    padding: 3px;
+    box-sizing: border-box;    
+    
+}
+
+.textb[type=text]:focus{
+    border-color:dodgerblue;
+    box-shadow: 0 0 8px 0 dodgerblue;
+}
+
+.textc{
+    background-color: #fff;
+    border: 2px solid #74b4db;
+    color:black;
+    border-radius: 6px;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    outline: none;
+    padding: 3px;
+    box-sizing: border-box;
+    text-transform:uppercase;
+    
+}
+
+.textc[type=text]:focus{
+    border-color:dodgerblue;
+    box-shadow: 0 0 8px 0 dodgerblue;
+}
+
+.texte{
+    background-color: #fff;
+    border: 2px solid #74b4db;
+    color:black;
+    border-radius: 6px;
+    width: 300px;
+    margin-left: 120px;
+    margin-right: auto;
+    outline: none;
+    padding: 3px;
+    box-sizing: border-box;
+    
+    
+}
+
+.texte[type=text]:focus{
+    border-color:dodgerblue;
+    box-shadow: 0 0 8px 0 dodgerblue;
+}
+
+.button{
+    color: #fff;
+    font-weight: bold;
+    font-family:Verdana, Geneva, sans-serif;
+    background-color: #74b4db;
+    border: 2px solid #74b4db;
+    border-radius: 6px;
+    width: 100px;
+    margin-top: 10px;
+    margin-left: 200px;
+    margin-right: auto;
+    outline: none;
+    padding: 4px;
+    box-sizing: border-box;
+}
+
+.button:focus{
+    border-color: white;
+    box-shadow: 0 0 8px 0 dodgerblue;
+}
+
+.container{
+    float: left;
+    width: 45%;
+    margin-top: 50px;
+}
+
+.list{
+    float: right;
+    width: 45%;
+    margin-top: 50px;
+}
+
+.button2{
+    color: #fff;
+    font-weight: bold;
+    font-family:Verdana, Geneva, sans-serif;
+    background-color: #E74C3C;
+    border: 2px solid #E74C3C;
+    border-radius: 6px;
+    width: 70px;
+    margin-left: 5px;
+    margin-right: auto;
+    outline: none;
+    padding: 1px;
+    box-sizing: border-box;
+
+}
+
+.button2:focus{
+    border-color: white;
+    box-shadow: 0 0 8px 0 dodgerblue;
+}
+/*
+table{
+    
+    margin-bottom: 15px;
+}
+*/
+
+table{
+    width: 90%;
+    margin-top: 15px;
+    margin-left: 40px;
+    margin-bottom: 70px;
+    
+}
+
+table, th {
+    border: 1px solid #17202A;
+    text-align: center;
+    
+}
+
+td {
+    border: 1px solid #17202A;
+    text-align: center;
+    word-break:break-all;
+    width: 200px;
+}
+
+.ujcal{
+    
+    margin-top: 30px;
+}
+
+.blokk1{
+    margin-top: 5px;
+}
+
+.blokk2{
+    margin-top: 5px;
+    margin-left: 40px;
+    
+}
+
+/*Button*/
+.radiob {
+    float: left;
+    color: black;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 18px;
+    margin-right: 25px;
+    cursor: pointer;
+    font-size: 16px;
+    font-family:Verdana, Geneva, sans-serif;
+    font-weight: bold;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  .radiob input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+  }
+  
+  .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    background-color: #74b4db;
+    border-radius: 50%;
+  }
+  
+  .radiob:hover input ~ .checkmark {
+    background-color: black;
+  }
+  
+  .radiob input:checked ~ .checkmark {
+    background-color: #74b4db;
+  }
+  
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  .radiob input:checked ~ .checkmark:after {
+    display: block;
+  }
+  
+  .radiob .checkmark:after {
+      top: 6px;
+      left: 6px;
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: #fff;
+  }
+
+  .piros{
+      color: red;
+  }
+
+  /*linkek*/
+
+  .link{
+      margin-bottom: 20px;
+  }
+
+  .linkmenu{
+    text-decoration: none;
+    margin-left:55px;
+    font-size: 18px;
+    font-family:Verdana, Geneva, sans-serif;
+    font-weight: bold;
+    color: black;
+  }
